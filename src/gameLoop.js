@@ -6,7 +6,7 @@ export function startGameLoop(
   scoreText, gameOverText, spawnInterval, restartCallback,
   restartText
 ) {
-  const GAME_WIDTH = 800;
+  const GAME_WIDTH = 700;
   const moveSpeed = 7; // Player movement speed
   const keys = {};
   let gameOverFlag = false;
