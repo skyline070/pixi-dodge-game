@@ -56,7 +56,7 @@ export function startGameLoop(
       block.trail.forEach((pos, index) => {
         const alpha = (index + 1) / block.trail.length;
         trailLayer.beginFill(block.fillColor, alpha * 0.5);
-        trailLayer.drawRect(pos.x, pos.y, 25, 25);
+        trailLayer.drawRect(pos.x, pos.y, 20, 20);
         trailLayer.endFill();
       });
 
