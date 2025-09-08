@@ -27,7 +27,7 @@ import { startGameLoop } from "./gameLoop.js";
   const { gameArea, trailLayer } = createGameArea(app, GAME_WIDTH, GAME_HEIGHT);
 
   // ===== Player Block =====
-  const player = createPlayer(gameArea, 110, 25);
+  const player = createPlayer(gameArea, 100, 20);
 
   // ===== Score Text =====
   const scoreText = new Text("Score: 0", { fontFamily: "Arial", fontSize: 24, fill: 0x000000 });
