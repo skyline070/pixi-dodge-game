@@ -13,7 +13,7 @@ export function startBlockSpawner(gameArea, GAME_WIDTH, redBlocks) {
     else fillColor = 0x0000ff;
 
     block.beginFill(fillColor);
-    block.drawRect(0, 0, 25, 25);
+    block.drawRect(0, 0, 20, 20);
     block.endFill();
 
     // Spawn fully inside game area
