@@ -10,8 +10,8 @@ import { startGameLoop } from "./gameLoop.js";
   await app.init({ background: 0xffffff, resizeTo: window });
   document.getElementById("pixi-container").appendChild(app.view);
 
-  const GAME_WIDTH = 800;
-  const GAME_HEIGHT = 600;
+  const GAME_WIDTH = 700;
+  const GAME_HEIGHT = 500;
 
   // ===== Instructions Text =====
   const instructions = new Text("Use Left / Right arrow keys to move", {
